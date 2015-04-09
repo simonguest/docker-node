@@ -1,0 +1,14 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "Docker and node example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
+  "license": "Apache 2",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
