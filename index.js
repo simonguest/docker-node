@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('Environment Variable 2: '+process.env.SIMON);
+    res.send('Environment Variable 3: '+process.env.SIMON);
 });
 
 var server = app.listen(3000, function () {
