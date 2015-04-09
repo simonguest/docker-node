@@ -1,5 +1,5 @@
 #
-# Example Dockerfile - Version 1.0.0
+# Example Dockerfile - Version 1.0.1
 #
 
 # Pull base image.
