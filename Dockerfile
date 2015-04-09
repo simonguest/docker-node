@@ -5,6 +5,9 @@
 # Pull base image.
 FROM dockerfile/nodejs
 
+# Version
+RUN echo 1.0.1
+
 # Pull latest code
 RUN mkdir /var/site
 WORKDIR /var/site
