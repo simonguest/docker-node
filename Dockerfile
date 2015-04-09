@@ -6,7 +6,7 @@
 FROM dockerfile/nodejs
 
 # Version
-RUN echo 1.0.1
+RUN echo 1.0.2
 
 # Pull latest code
 RUN mkdir /var/site
