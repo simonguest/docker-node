@@ -24,7 +24,7 @@ app.get('/pdf', function (req, res) {
 });
 
 app.get('/', function (req, res) {
-    res.send('Hello ' + process.env.SIMON);
+    res.send('<p style="font-family:Ubuntu Condensed">Hello ' + process.env.SIMON + '</p>');
 });
 
 var server = app.listen(3000, function () {
