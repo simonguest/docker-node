@@ -9,6 +9,7 @@
   "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "phantom": "^0.7.2"
   }
 }
