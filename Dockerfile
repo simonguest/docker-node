@@ -6,7 +6,7 @@
 FROM dockerfile/nodejs
 
 # Version
-RUN echo 1.0.3
+RUN echo 1.0.4
 
 # apt-get update
 RUN apt-get update
