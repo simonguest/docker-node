@@ -4,7 +4,7 @@
   "description": "Docker and node example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Still need to write tests!\" && exit 0"
   },
   "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
