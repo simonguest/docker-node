@@ -1,15 +1,17 @@
 {
-  "AWSEBDockerrunVersion": "1",
-  "Image": {
-    "Name": "quay.io/simonguest/docker-node",
-    "Update": "true"
-  },
-  "Ports": [
+  "AWSEBDockerrunVersion": "2",
+  "containerDefinitions": [
     {
-      "ContainerPort": "3000"
+      "name": "docker-node",
+      "image": "quay.io/simonguest/docker-node",
+      "essential": true,
+      "memory": 128,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 3000
+        }
+      ]
     }
-  ],
-  "Volumes": [
-  ],
-  "Logging": "/var/log/nginx"
+  ]
 }
