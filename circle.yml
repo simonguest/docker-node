@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    - pip install awscli
+    - pip install awscli==1.7.22
     - docker build -t quay.io/simonguest/docker-node:$CIRCLE_SHA1 .
 
 test:
@@ -20,5 +20,5 @@ deployment:
     commands:
       - docker login -e="." -u="\$token" -p="$DOCKER_PASS" quay.io
       - docker push quay.io/simonguest/docker-node:$CIRCLE_SHA1
-      - sudo bash deploy.sh $CIRCLE_SHA1
+      - bash deploy.sh $CIRCLE_SHA1
 

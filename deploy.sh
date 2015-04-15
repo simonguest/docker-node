@@ -5,6 +5,8 @@ SHA1=$1
 # Copy docker json to S3
 DOCKERRUN_FILE=$SHA1-Dockerrun.aws.json
 sed "s/<TAG>/$SHA1/" < Dockerrun.aws.json.template > $DOCKERRUN_FILE
+
+# Copy the deployment to S3
 aws s3 cp $DOCKERRUN_FILE s3://circleci-builds/$DOCKERRUN_FILE
 
 # Create new application version
