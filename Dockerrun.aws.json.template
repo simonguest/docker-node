@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "docker-node",
-      "image": "quay.io/simonguest/docker-node",
+      "image": "quay.io/simonguest/docker-node:<TAG>",
       "essential": true,
       "memory": 128,
       "portMappings": [
