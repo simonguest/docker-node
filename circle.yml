@@ -1,0 +1,4 @@
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    - url: https://hooks.slack.com/services/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
