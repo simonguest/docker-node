@@ -15,5 +15,4 @@ deployment:
   elasticbeanstalk:
     branch: master
     commands:
-      - docker login -e="." -u="\$token" -p="$DOCKER_PASS" quay.io
-      - docker push quay.io/simonguest/docker-node:$CIRCLE_SHA1
+      - docker login -e="." -u="\$token" -p="$DOCKER_PASS" quay.io && docker push simonguest/docker-node:$CIRCLE_SHA1
