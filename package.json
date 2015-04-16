@@ -4,11 +4,15 @@
   "description": "Docker and node example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Still need to write tests!\" && exit 0"
+    "test": "mocha"
   },
   "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
   "dependencies": {
     "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
   }
 }
