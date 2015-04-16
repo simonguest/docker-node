@@ -4,7 +4,7 @@
   "description": "Docker and node example",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/unit/index.js"
   },
   "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "chai": "^2.2.0",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "selenium-webdriver": "^2.45.1"
   }
 }
