@@ -4,7 +4,7 @@ var webdriver = require('selenium-webdriver'),
 
 describe('Webdriver tests', function () {
     this.timeout(5000);
-    it('should return the mock event', function (done) {
+    it('should ensure that Hello World is displayed', function (done) {
         var driver = new webdriver.Builder()
             .forBrowser('phantomjs')
             .build();
