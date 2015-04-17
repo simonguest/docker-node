@@ -1,4 +1,4 @@
 'use strict';
 module.exports.getMessage = function(){
-    return 'Hello Prashanth';
+    return 'Hello World';
 };
