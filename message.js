@@ -1,4 +1,4 @@
 'use strict';
 module.exports.getMessage = function(){
-    return 'Hello World';
+    return 'Hello Agile Team';
 };
