@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "chai": "^2.2.0",
+    "forever": "^0.14.1",
     "mocha": "^2.2.4",
-    "pm2": "^0.12.11",
     "selenium-webdriver": "^2.45.1"
   }
 }
