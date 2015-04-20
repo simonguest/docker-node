@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha test/unit/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simonguest/docker-node.git"
+  },
   "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
   "dependencies": {
@@ -14,6 +18,7 @@
   "devDependencies": {
     "chai": "^2.2.0",
     "mocha": "^2.2.4",
+    "pm2": "^0.12.11",
     "selenium-webdriver": "^2.45.1"
   }
 }

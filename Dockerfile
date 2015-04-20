@@ -10,10 +10,10 @@ ADD . /var/site
 # Install npm dependencies
 WORKDIR /var/site
 RUN npm install
-RUN npm install -g forever
+RUN npm install -g pm2
 
 # open ports
 EXPOSE 3000
 
 # Default command
-CMD ["forever","/var/site/index.js"]
+CMD pm2 start index.js --no-daemon
