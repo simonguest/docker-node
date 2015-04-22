@@ -4,7 +4,7 @@ var data = require('../../message');
 describe('Unit tests', function(){
     it('should return Hello World', function(done){
         var result = data.getMessage();
-        assert(result === 'Hello Radim', 'Data mismatch');
+        assert(result === 'Hello World 2', 'Data mismatch');
         done();
     });
 });
