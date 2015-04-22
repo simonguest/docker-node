@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM google/nodejs
 
 # apt-get update
 RUN apt-get update
