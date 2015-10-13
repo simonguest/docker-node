@@ -1,4 +1,4 @@
-FROM google/nodejs
+FROM node:0.12.4
 
 # apt-get update
 RUN apt-get update
