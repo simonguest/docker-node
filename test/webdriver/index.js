@@ -10,7 +10,7 @@ describe('Webdriver tests', function () {
             .build();
         driver.get('http://localhost:3000');
         driver.findElement(By.id('hello')).getText().then(function (text) {
-            assert(text === 'Hello Team', 'Expected page to display Hello World');
+            assert(text === 'Hello World', 'Expected page to display Hello World');
             done();
         });
         driver.quit();
