@@ -18,7 +18,7 @@ deployment:
   elasticbeanstalk:
     branch: master
     commands:
-      - docker tag -f quay.io/simonguest/docker-node:$CIRCLE_SHA1 quay.io/simonguest/docker-node:latest
+      - sdocker tag -f quay.io/simonguest/docker-node:$CIRCLE_SHA1 quay.io/simonguest/docker-node:latest
       - docker login -e="." -u="\$token" -p="$DOCKER_PASS" quay.io
       - docker push quay.io/simonguest/docker-node:$CIRCLE_SHA1
       - bash deploy.sh $CIRCLE_SHA1
